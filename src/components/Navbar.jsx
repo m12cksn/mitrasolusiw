@@ -38,12 +38,12 @@ const Navbar = () => {
           >
             <h1>Visi Misi</h1>
           </Link>
-          <Link
+          {/* <Link
             className="font-semibold hover:text-slate-900 ease-in-out duration-150 transition-all"
             href="/legalitas"
           >
-            <h1>Visi Misi</h1>
-          </Link>
+            <h1>Legalitas</h1>
+          </Link> */}
           <Link
             className="font-semibold hover:text-slate-900 ease-in-out duration-150 transition-all"
             href="/vo"
@@ -80,12 +80,12 @@ const Navbar = () => {
               >
                 <Link href="/visi">Visi Misi</Link>
               </li>
-              <li
+              {/* <li
                 onClick={handleSmallerScreenNavigation}
                 className="font-semibold hover:text-secondary ease-in-out duration-150 transition-all"
               >
                 <Link href="/legalitas">Legalitas</Link>
-              </li>
+              </li> */}
               <li
                 onClick={handleSmallerScreenNavigation}
                 className="font-semibold hover:text-secondary ease-in-out duration-150 transition-all"
