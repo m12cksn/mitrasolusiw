@@ -42,7 +42,7 @@ const Navbar = () => {
             className="font-semibold hover:text-slate-900 ease-in-out duration-150 transition-all"
             href="/legalitas"
           >
-            <h1>Legalitas</h1>
+            <h1>Visi Misi</h1>
           </Link>
           <Link
             className="font-semibold hover:text-slate-900 ease-in-out duration-150 transition-all"
